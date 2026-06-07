@@ -70,7 +70,7 @@ input{
     margin: 20px;
     padding: 20px 25px;
     background: rgba(17, 14, 24, 0.664);
-    border: 2.5px solid rgba(255, 255, 255, 0.925);
+    border: 2.5px solid rgb(118, 53, 192);
     border-radius: 15px;
     font-size: 20px;
     color:rgb(50, 255, 67);
@@ -79,12 +79,12 @@ input{
     font-family: 'Segoe UI', monospace;
     display: block;
     margin-top: 8px;
-    box-shadow: 10px 7.5px 2.5px rgba(255, 255, 255, 1);
+    box-shadow: 10px 7.5px 2.5px rgb(0, 0, 0);
 }
 
 input:hover{
     border-color: rgb(255, 153, 0);
-    box-shadow: 40px 30px 10px rgb(255, 255, 255);
+    box-shadow: 40px 30px 10px rgb(0, 0, 0);
     width: 400px;
     height: 65px;
     transform: translateY(10px);
@@ -93,7 +93,7 @@ input:hover{
 input:focus{
     transform: translateY(-20px);
     border-color: rgb(255, 153, 0);
-    box-shadow: 20px 15px 5px rgb(255, 255, 255);
+    box-shadow: 20px 15px 5px rgb(0, 0, 0);
     width: 380px;
     height: 50px;
   
@@ -106,7 +106,7 @@ button{
     margin: 5px;
     padding: 5px 5px;
     background: #00000000;
-    border: 2.5px solid rgba(255, 255, 255, 1);
+    border: 2.5px solid rgb(209, 198, 44);
     border-radius: 50px;
     font-size: 25px;
     transition: all .3s ease;
