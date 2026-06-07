@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #006e65 0%, #004e00 50%, #2e006b 110%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    margin-bottom: 30px;
+    background: linear-gradient(135deg, #7ec3fc, #7446a1);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    letter-spacing: 1px;
+    position: relative;
+    z-index: 1;
+    animation: fadeInDown 0.6s ease-out;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-300px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+p {
+    position: relative;
+    width: 100%;
+    max-width: 350px;
+    margin: 0, auto, 20px, auto;
+    animation: fadeInUp 1s ease-out;
+    color: #ccc;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+@keyframes fadeInUp{
+    from{
+        opacity: 0;
+        transform: translateY(300px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+input{
+    width: 350px;
+    height: 50px;
+    margin: 20px;
+    padding: 20px 25px;
+    background: rgba(17, 14, 24, 0.664);
+    border: 2.5px solid rgba(255, 255, 255, 0.925);
+    border-radius: 15px;
+    font-size: 20px;
+    color:rgb(50, 255, 67);
+    transition: all 1s ease;
+    outline: none;
+    font-family: 'Segoe UI', monospace;
+    display: block;
+    margin-top: 8px;
+    box-shadow: 10px 7.5px 2.5px rgba(255, 255, 255, 1);
+}
+
+input:hover{
+    border-color: rgb(255, 153, 0);
+    box-shadow: 40px 30px 10px rgb(255, 255, 255);
+    width: 400px;
+    height: 65px;
+    transform: translateY(10px);
+}
+
+input:focus{
+    transform: translateY(-20px);
+    border-color: rgb(255, 153, 0);
+    box-shadow: 20px 15px 5px rgb(255, 255, 255);
+    width: 380px;
+    height: 50px;
+  
+}
+
+button{
+    /* position: relative; */
+    width: 76px;
+    height: 76px;
+    margin: 5px;
+    padding: 5px 5px;
+    background: #00000000;
+    border: 2.5px solid rgba(255, 255, 255, 1);
+    border-radius: 50px;
+    font-size: 25px;
+    transition: all .3s ease;
+    box-shadow: 5px 5px 5px ;
+}
+
+button:hover{
+    border-color: #ffa600;
+    box-shadow: 10px 10px 6px;
+}
+
+#one:active {
+    transform: translateY(10px);
+    box-shadow: 5px 5px 3px;
+    transition: all .2 ease;
+}
+
+#two:active {
+    transform: translateY(10px);
+    box-shadow: 5px 5px 3px;
+    transition: all .2 ease;
+}
+
+#three:active {
+    transform: translateY(10px);
+    box-shadow: 5px 5px 3px;
+    transition: all .2 ease;
+}
+
+#four:active {
+    transform: translateY(10px);
+    box-shadow: 5px 5px 3px;
+    transition: all .2 ease;
+}
+
+#five:active {
+    transform: translateY(10px);
+    box-shadow: 5px 5px 3px;
+    transition: all .2 ease;
+}
+
+#six:active {
+    transform: translateY(10px);
+    box-shadow: 5px 5px 3px;
+    transition: all .2 ease;
+}
+
+#seven:active {
+    transform: translateY(10px);
+    box-shadow: 5px 5px 3px;
+    transition: all .2 ease;
+}
+
+#eight:active {
+    transform: translateY(10px);
+    box-shadow: 5px 5px 3px;
+    transition: all .2 ease;
+}
+
+#nine:active {
+    transform: translateY(10px);
+    box-shadow: 5px 5px 3px;
+    transition: all .2 ease;
+}
+
+#zero:active {
+    transform: translateY(10px);
+    box-shadow: 5px 5px 3px;
+    transition: all .2 ease;
+}
+
+#equal:active {
+    transform: translateY(10px);
+    box-shadow: 5px 5px 3px;
+    transition: all .2 ease;
+}
+
+#addition:active {
+    transform: translateY(10px);
+    box-shadow: 5px 5px 3px;
+    transition: all .2 ease;
+}
+
+#subtracation:active {
+    transform: translateY(10px);
+    box-shadow: 5px 5px 3px;
+    transition: all .2 ease;
+}
+
+#multiplication:active {
+    transform: translateY(10px);
+    box-shadow: 5px 5px 3px;
+    transition: all .2 ease;
+}
+
+#division:active {
+    transform: translateY(10px);
+    box-shadow: 5px 5px 3px;
+    transition: all .2 ease;
+}
+
+#backSpace:active {
+    transform: translateY(10px);
+    box-shadow: 5px 5px 3px;
+    transition: all .2 ease;
+}
+
